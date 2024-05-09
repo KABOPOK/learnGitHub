@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 0.5 ./SummerSchool tests/input9.txt output.txt && cmp output.txt tests/output9.txt",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
