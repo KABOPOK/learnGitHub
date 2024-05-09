@@ -3,7 +3,7 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "timeout 0.5 ./SummerSchool tests/input9.txt output.txt && cmp output.txt tests/output9.txt",
+      "run": "timeout 0.5 ./SummerSchool tests/input1.txt output.txt && cmp output.txt tests/output1.txt",
       "input": "",
       "output": "",
       "comparison": "exact",
