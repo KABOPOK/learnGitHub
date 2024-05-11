@@ -1,6 +1,6 @@
 #include "functions.h"
-void help() {
-	std::cout << "input 3 argument :" << '\n';
+void help() { 
+	std::cout << "input 3 argument : " << '\n';
 	std::cout << "program.exe inputFile.txt outputFile.txt"<<'\n';
 }
 bool isArgCorrect(std::ifstream& in, std::ofstream& out, int argc) {
